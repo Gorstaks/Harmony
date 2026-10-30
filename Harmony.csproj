@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <PlatformTarget>x64</PlatformTarget>
+    <Version>0.0.1</Version>
+    <AssemblyName>Harmony</AssemblyName>
+    <RootNamespace>Harmony</RootNamespace>
+    <ApplicationIcon>Harmony.ico</ApplicationIcon>
+    <Description>Background healing tone generator - Schumann resonance, solfeggio frequencies, binaural beats.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Harmony.ico" />
+  </ItemGroup>
+
+</Project>
